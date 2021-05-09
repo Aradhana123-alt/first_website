@@ -1,0 +1,150 @@
+body{
+    color: rgb(17, 17, 17);
+    margin: 0;
+    text-align: center;
+    font-family: 'merriweather', sans-serif;
+}
+h1{
+    margin-top: 0;
+    font-family: 'Sacramento',cursive; 
+    font-size: 4.652rem;
+    margin: 15px auto 0 auto;
+    color:rgb(21, 33, 199);
+    
+      /* 16px =100% in terms of percentage and =1em  eg (90px =90/16=5.652em)  font size always inherited by  parent eg =if parent element have some font size and we also give specific size to child it will be add up 
+     with the parent size and now this much value a child will hold */
+}
+a{
+    color: darkblue;
+    font-family:'Montserrat',sans-serif; 
+    margin: 10px 20px;
+    text-decoration: none;
+
+}
+a:hover{
+    color: darkgoldenrod;
+}
+
+.top-container{
+
+    background-color: cyan;
+    position: relative;
+    padding: 100px;
+}
+p{
+    line-height: 2;
+}
+.middle-container{
+    margin: 100px 0;
+}
+.bottom-container{
+    background-color:cyan;
+    padding:30px 20px 10px;
+}
+h2{
+    
+    font-family: 'Montserrat',sans-serif;
+    font-size: 2.5rem;
+    color:rgb(21, 33, 199);
+    font-weight: 400;
+    padding-bottom: 10px;
+
+}
+h3{
+    font-family: 'Montserrat',sans-serif;
+    color:rgb(174, 0, 255)
+}
+hr{
+    border:  dotted  grey;
+    border-bottom: none;
+    margin:100px auto;
+    width: 10%;
+    
+    
+} 
+
+span{
+    text-decoration: underline;
+}
+.skills-row{
+          width: 50%;
+          margin:  100px auto 100px  auto;
+          text-align: left; 
+        
+}
+
+
+
+
+.top-cloud{
+    height: 130px;
+    
+    position: absolute;
+    right: 250px;
+    top: 30px;
+}
+.bottom-cloud{
+    height: 130px;
+    
+    position: absolute;
+    left: 300px;
+    bottom: 350px;
+}
+.mountain{
+    position: relative;
+    top:100px
+    
+}
+.myimage{
+     border-radius: 100%;
+     width: auto;
+}
+.webimage{
+    border-radius: 100%;
+    height: 200px;
+    margin-right: 30px;
+    width: 20%;
+    float: left;
+}
+.poemimage{
+    border-radius: 100%;
+    height: 200px;
+    width: 25%;
+    float: right;
+    margin-left:30px ;
+}
+.contact-msg{
+    width: 40%;
+    margin: 40px auto 60px auto;
+}
+.copyright{
+    color: antiquewhite;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11994e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11994e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11994e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11994e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11994e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat',sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
